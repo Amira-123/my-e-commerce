@@ -5,7 +5,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  {path:"",redirectTo:"products",pathMatch:'full'},
   {path:"products",component:AllProductsComponent},
   {path:"details/:id",component:ProductDetailsComponent},
   {path:"cart",component:CartComponent},
