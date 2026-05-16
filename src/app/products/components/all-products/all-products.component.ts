@@ -57,7 +57,7 @@ export class AllProductsComponent implements OnInit {
     this.allProducts=res;
     this.spinnerFlag=false;
     },
-    (error)=>{
+    (error:any)=>{
     this.spinnerFlag=true;
      alert(error)
     })

@@ -24,7 +24,7 @@ export class ProductDetailsComponent implements OnInit {
     this.product=res;
     this.loading=false;
     },
-    (error=>{
+    ((error:any)=>{
       alert(error);
       this.loading=true
     }))
