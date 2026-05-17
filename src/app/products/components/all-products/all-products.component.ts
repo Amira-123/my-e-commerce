@@ -3,9 +3,10 @@ import { ProductService } from './../../services/product.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-all-products',
-  templateUrl: './all-products.component.html',
-  styleUrls: ['./all-products.component.scss']
+    selector: 'app-all-products',
+    templateUrl: './all-products.component.html',
+    styleUrls: ['./all-products.component.scss'],
+    standalone: false
 })
 export class AllProductsComponent implements OnInit {
   allProducts:IProduct[]=[];
